@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.AOCFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tvA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Area of Circle"
+        android:textAlignment="center"
+        android:layout_margin="20dp"/>
+
+
+    <EditText
+        android:id="@+id/etradius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Radius of Circle"
+        android:gravity="center"
+        android:layout_margin="10dp" />
+
+
+    <Button
+        android:id="@+id/btnaoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Calculate Area of Circle"
+        android:textColor="#fff"
+        android:background="#177"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvArea"
+        android:layout_margin="20dp"/>
+
+
+
+</LinearLayout>
